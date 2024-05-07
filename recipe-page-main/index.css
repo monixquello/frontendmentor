@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Young+Serif&display=swap');
+.root{
+    primary-color: #ffecd1;
+    secondary-color: #ffeff4;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    background-color: #ffecd1;
+}
+
+
+
+.container{
+    background-color: #f9f9f9 ;
+    max-width: 600px;
+    margin: 30px auto;
+    /* height: 100vh; */
+    border-radius: 15px;
+}
+
+.container-contents{
+    padding: 5% 5%;
+
+}
+
+.container img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container-header-content{
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.container-header-content h3{
+    font-family: "Young Serif", serif;
+    color: #333;
+    font-size: 30px;
+}
+
+.container-header-content p{
+    font-family: "Outfit", sans-serif;
+    color: #555;
+}
+
+.container-preparation{
+    background-color: #ffeff4;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.container-preparation h3{
+    color: #993b58;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.container-preparation li  span{
+    color: #333;
+    font-weight: bold;
+}
+
+.container-preparation ul li{
+    margin-bottom: 15px;
+    font-family: "Outfit", sans-serif;
+    color: #555;
+}
+
+
+.container-ingredients h3{
+    color: #861a2d;
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+}
+
+
+
+.container-ingredients ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.container-ingredients ul li {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #555; 
+    padding-left: 30px; 
+    position: relative; 
+    margin-left: 21px;
+}
+
+.container-ingredients ul li:before {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 5px; 
+    height: 5px; 
+    background-color: #861a2d; 
+}
+
+.container-instruction h3{
+    color: #861a2d;
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+}
+
+.container-instruction ol li{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: "Outfit", sans-serif;
+    color: #555;
+}
+
+.container-instruction ol span{
+    color: #333;
+    font-weight: bold;
+}
+
+.container-instruction ol li::marker {
+    color: #861a2d; 
+    font-weight: bolder;
+}
+
+.container-nutrition h3{
+    color: #861a2d;
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+}
+
+.container-nutrition p{
+    color: #555;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.container-nutrition-calories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-nutrition-calories p{
+    padding-left: 30px;
+}
+
+.container-nutrition-calories span{
+    padding-right: 40%;
+    font-family: "Outfit", sans-serif;
+    color: #861a2d;
+    font-weight: bolder;
+}
+
+hr{
+    margin: 0px 0px;
+}
+
+.attribution{
+    max-width: 600px;
+    margin: 50px auto;
+}
